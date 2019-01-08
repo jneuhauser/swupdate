@@ -311,7 +311,7 @@ Take an example. The following sw-description describes the release for a set of
     }
 
 On *myboard*, SWUpdate searches and find myboard.stable.copy1(2). When running on different
-boards, SWUpdate does not find an enty corresponding to the boardname and it fallbacks to the
+boards, SWUpdate does not find an entry corresponding to the boardname and it fallbacks to the
 version without boardname. This lets relalize the same release for different boards having
 a complete different hardware. `myboard` could have a eMMC and an ext4 filesystem,
 while another device can have raw flash and install an UBI filesystem. Nevertheless, they are
@@ -399,7 +399,7 @@ the section with `-e stable,<rev number>`.
 If each of them requires an own section, it is the way to do. Anyway, it is more probable
 than revisions can be grouped together, for example board with the same major revision
 number could have the same installation instructions. This leads in the example to 3 groups
-for rev1.X, rev2.X and rev3.X. Links allow to group section together. When a "ref" is found
+for rev1.X, rev2.X and rev3.X. Links allow one to group section together. When a "ref" is found
 when SWUpdate searches for a group (images, files, script, bootenv), it replaces the current path
 in the tree with the value of the string. In this way, the example above can be written in this way:
 
@@ -567,7 +567,7 @@ SWUpdate is started.
 partitions : UBI layout
 -----------------------
 
-This tag allows to change the layout of UBI volumes.
+This tag allows one to change the layout of UBI volumes.
 Please take care that MTDs are not touched and they are
 configured by the Device Tree or in another way directly
 in kernel.

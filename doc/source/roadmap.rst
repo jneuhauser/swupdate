@@ -38,7 +38,7 @@ from Hawkbit. SWUpdate should be able to run multiple instances of
 suricatta to do this.
 
 One other examples is using LWM2M. The gateway should be generic enough
-to allow to add further protocols in future.
+to allow one to add further protocols in future.
 
 Binary delta updates
 ====================
@@ -86,7 +86,7 @@ Some ideas for new handlers:
 Flash handler
 -------------
 
-The flash handler for raw-devices (mainly NOR flashes) does not allow to
+The flash handler for raw-devices (mainly NOR flashes) does not allow one to
 stream the image and an error is reported if "installed-directly" is set.
 The handler can be extended to stream images.
 

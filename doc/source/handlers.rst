@@ -256,7 +256,7 @@ returns. Chaining handlers, calling ``image:copy2file()``, or using
 
 
 Note that although the dynamic nature of Lua handlers would
-technically allow to embed them into a to be processed ``.swu``
+technically allow one to embed them into a to be processed ``.swu``
 image, this is not implemented as it carries some security
 implications since the behavior of SWUpdate is changed
 dynamically.
@@ -428,7 +428,7 @@ skipping over unchanged content is handled well by the rdiff algorithm.
 ucfw handler
 ------------
 
-This handler allows to update the firmware on a microcontroller connected to
+This handler allows one to update the firmware on a microcontroller connected to
 the main controller via UART.
 Parameters for setup are passed via sw-description file.  Its behavior can be
 extended to be more general.

@@ -1,11 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: swupdate
-Maintainer: Stefano Babic <sbabic@denx.de>
+Upstream-Contact: Stefano Babic <sbabic@denx.de>
 Source: http://github.com/sbabic/swupdate
 
 Files: *
-Copyright: 2014-2017 Stefano Babic <sbabic@denx.de>
-
+Copyright: 2014-2019 Stefano Babic <sbabic@denx.de>
 License: GPL-2 with OpenSSL exception
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

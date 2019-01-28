@@ -19,7 +19,7 @@ documentation:
 	make latexpdf
 
 configure:
-	make debian_defconfig
+	make dh_debian_defconfig
 
 build: documentation configure
 	dh $@
